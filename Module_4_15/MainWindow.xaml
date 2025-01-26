@@ -74,7 +74,7 @@
                             <TableColumn Width="0.5*"/>
                             <TableColumn Width="1*"/>
                         </Table.Columns>
-                        <TableRowGroup >
+                        <TableRowGroup>
                             <TableRow>
                                 <TableCell >
                                     <Paragraph>
