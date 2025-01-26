@@ -5,8 +5,211 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Module_4_15"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
-    <Grid>
-        
+        Title="MainWindow" Height="600" Width="800">
+    <Grid Background="#FFB9E4E4">
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+        <FlowDocumentScrollViewer x:Name="docViewer">
+            <FlowDocument>
+                <Section FontSize="24">
+                    <Paragraph TextAlignment="Center">
+                        <Hyperlink NavigateUri="https://tsvetomania.ru/encyclopedia/anemony963/">
+                            <Bold>Анемона</Bold>
+                        </Hyperlink>
+                    </Paragraph>
+                </Section>
+                <Paragraph>
+                    <Floater Width="350" HorizontalAlignment="Right">
+                        <BlockUIContainer>
+                            <Image Source="Data/anemona.jpg"/>
+                        </BlockUIContainer>
+                    </Floater>
+                    <Bold>
+                        <Italic>Анемоны (Anemone)</Italic>
+                    </Bold> — это род цветущих растений из семейства Лютиковых (Ranunculaceae), насчитывающий около 120 видов. Название цветка происходит от греческого слова «анемос», что означает «ветер», так как лепестки анемоны легко колышутся на ветру. Происходят из умеренных регионов Северного полушария, анемоны широко распространены в Европе, Азии и Северной Америке. Они известны своей красотой, разнообразием оттенков (белые, розовые, синие, красные) и простотой в уходе. Цветы анемоны часто ассоциируются с наступлением весны и символизируют ожидание и переменчивость.
+                </Paragraph>
+                <Paragraph>
+                    <Bold>Внешний вид анемон</Bold>
+                </Paragraph>
+                <List>
+                    <ListItem>
+                        <Paragraph>
+                            <Italic>Цвета лепестков:</Italic> Анемоны могут быть белыми, синими, фиолетовыми, розовыми и красными. В некоторых случаях встречаются цветы с ярко выраженной двухцветной окраской или оттенками, переходящими от одного к другому.
+                        </Paragraph>
+                    </ListItem>
+                </List>
+                <List>
+                    <ListItem>
+                        <Paragraph>
+                            <Italic>Форма и структура цветка</Italic> : Цветки анемоны обычно одиночные, могут быть чашеобразной или звездчатой формы. У некоторых видов лепестки имеют изящный, немного волнистый край. Цветки могут достигать 5–8 см в диаметре. В центре часто располагается пучок ярких тычинок, придающий цветку выразительность.
+                        </Paragraph>
+                    </ListItem>
+                </List>
+                <List>
+                    <ListItem>
+                        <Paragraph>
+                            <Italic>Высота и размеры растения:</Italic> В зависимости от вида, анемоны могут варьироваться в высоту от 10 см (карликовые виды) до 1 метра (крупные садовые сорта).
+                        </Paragraph>
+                    </ListItem>
+                </List>
+                <List>
+                    <ListItem>
+                        <Paragraph>
+                            <Italic>Листья и стебель:</Italic> Листья анемоны часто глубоко рассеченные, с зазубренными краями, темно-зеленого цвета. Они расположены на длинных черешках и образуют красивую декоративную розетку у основания растения. Стебли прямостоячие, тонкие, иногда слегка опушенные, при этом достаточно прочные, чтобы удерживать цветок.
+                        </Paragraph>
+                    </ListItem>
+                </List>
+                <Paragraph>
+                    <Bold>Разновидности анемоны</Bold>
+                </Paragraph>
+                <Paragraph>
+                    Анемоны включают множество видов, каждый из которых обладает уникальными характеристиками и декоративной ценностью
+                </Paragraph>
+                <Section FontSize="14">
+                    <Table>
+                        <Table.Columns>
+                            <TableColumn Width="0.5*"/>
+                            <TableColumn Width="0.5*"/>
+                            <TableColumn Width="1*"/>
+                        </Table.Columns>
+                        <TableRowGroup >
+                            <TableRow>
+                                <TableCell >
+                                    <Paragraph>
+                                        <Bold>Наменование</Bold>
+                                    </Paragraph>
+                                </TableCell>
+                                <TableCell>
+                                    <Paragraph>
+                                        <Bold>Латинсокое наименоване</Bold>
+                                    </Paragraph >
+                                </TableCell>
+                                <TableCell>
+                                    <Paragraph TextAlignment="Center">
+                                        <Bold>Описание</Bold>
+                                    </Paragraph>
+                                </TableCell>
+                            </TableRow>
+
+                            <TableRow>
+                                <TableCell>
+                                    <Paragraph>
+                                        Анемона корончатая
+                                    </Paragraph>
+                                </TableCell>
+                                <TableCell>
+                                    <Paragraph>
+                                        Anemone coronaria
+                                    </Paragraph>
+                                </TableCell>
+                                <TableCell>
+                                    <Paragraph>
+                                        Это один из самых известных и популярных видов анемоны, часто используемый в садоводстве и флористике. Цветки могут быть махровыми или полумахровыми, имеют широкую цветовую палитру (белые, красные, синие и фиолетовые оттенки). Анемона корончатая цветет весной, образуя эффектные цветки диаметром до 8 см. Этот вид часто выращивают для срезки.
+                                    </Paragraph>
+                                </TableCell>
+                            </TableRow>
+
+                            <TableRow>
+                                <TableCell>
+                                    <Paragraph>
+                                        Анемона японская
+                                    </Paragraph>
+                                </TableCell>
+                                <TableCell>
+                                    <Paragraph>
+                                        Anemone hupehensis
+                                    </Paragraph>
+                                </TableCell>
+                                <TableCell>
+                                    <Paragraph>
+                                        Также известная как осенняя анемона, цветет поздним летом и осенью. Цветки обычно розовые, белые или красноватые, собраны в свободные соцветия. Этот вид отличается своей долговечностью и устойчивостью к холодам. Анемона японская имеет высокие, до 1 метра, цветоносы и идеально подходит для многолетних цветников.
+                                    </Paragraph>
+                                </TableCell>
+                            </TableRow>
+                            <TableRow>
+                                <TableCell>
+                                    <Paragraph>
+                                        Анемона лесная
+                                    </Paragraph>
+                                </TableCell>
+                                <TableCell>
+                                    <Paragraph>
+                                        Anemone sylvestris
+                                    </Paragraph>
+                                </TableCell>
+                                <TableCell>
+                                    <Paragraph>
+                                        Этот вид встречается в дикой природе в лесах Европы и Азии. Цветет в начале лета белыми, ароматными цветками, которые прекрасно смотрятся в тенистых уголках сада. Анемона лесная вырастает до 30-40 см в высоту и предпочитает тенистые и влажные места.
+                                    </Paragraph>
+                                </TableCell>
+                            </TableRow>
+                            <TableRow>
+                                <TableCell>
+                                    <Paragraph>
+                                        Анемона нарциссоцветковая
+                                    </Paragraph>
+                                </TableCell>
+                                <TableCell>
+                                    <Paragraph>
+                                        Anemone sylvestris
+                                    </Paragraph>
+                                </TableCell>
+                                <TableCell>
+                                    <Paragraph>
+                                        Растение с нежными белыми или слегка розовыми цветами, цветущее весной. Любит прохладные горные условия</Paragraph>
+                                </TableCell>
+                            </TableRow>
+                            <TableRow>
+                                <TableCell>
+                                    <Paragraph>
+                                        Анемона дубравная
+                                    </Paragraph>
+                                </TableCell>
+                                <TableCell>
+                                    <Paragraph>
+                                        Anemone nemorosa
+                                    </Paragraph>
+                                </TableCell>
+                                <TableCell>
+                                    <Paragraph>
+                                        Миниатюрный лесной вид с белыми, реже голубыми или розовыми цветками, цветущий ранней весной. Отличается неприхотливостью и подходит для альпинариев и тенистых садов.
+                                    </Paragraph>
+                                </TableCell>
+                            </TableRow>
+                            <TableRow>
+                                <TableCell>
+                                    <Paragraph>
+                                        Анемона павлиния
+                                    </Paragraph>
+                                </TableCell>
+                                <TableCell>
+                                    <Paragraph>
+                                        Anemone pavonina
+                                    </Paragraph>
+                                </TableCell>
+                                <TableCell>
+                                    <Paragraph>
+                                        Декоративный вид с ярко-красными цветками, часто выращиваемый как декоративное растение в садах.
+                                    </Paragraph>
+                                </TableCell>
+                            </TableRow>
+                        </TableRowGroup>
+                    </Table>
+                </Section>
+                <BlockUIContainer>
+                    <StackPanel>
+                        <Button Content="Нравится!"/>
+                    </StackPanel>
+                </BlockUIContainer>
+            </FlowDocument>
+        </FlowDocumentScrollViewer>
+        <StackPanel Grid.Row="1" Orientation="Horizontal">
+            <Button Content="Открыть" Width="100" Click="Button_Click_1" Padding="5" Margin="0,0,0,2"/>
+            <Button Content="Сохранить" Width="100" Click="Button_Click_2" Padding="5" Margin="0,0,0,2"/>
+            <Button Content="Очистить" Width="100" Click="Button_Click" Padding="5" Margin="0,0,0,2"/>
+        </StackPanel>
+
     </Grid>
 </Window>
